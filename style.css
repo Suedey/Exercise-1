@@ -1,0 +1,74 @@
+html,
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+.section-wrapper{
+    background-color: #cff1ca;
+    padding: 25px;
+}
+
+.interior{
+    background-color: #9ef490;
+    border: 10px solid green;
+    margin: 40px;
+    padding: 40px;
+
+}
+
+.flex-interior{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 40px 0;
+
+}
+
+.flex-parent{
+    background-color: lightcoral;
+    border:10px solid brown;
+    display: flex;
+    flex-basis: 45%;
+    flex-shrink: 0;
+    gap: 25px;
+    padding: 25px;
+    width: 100%;
+}
+
+.flex-parent:first-of-type{
+    flex-basis: 100%;
+    padding: 40px;
+}
+
+.flex-parenth1{
+    color: brown;
+}
+
+.flex-parent-stacked{
+    flex-direction: column;
+
+}
+
+.flex-child{
+    background-color: beige;
+    border: 2px solid orange;
+    flex-basis: 33%;
+    min-height: 100px;
+}
+
+.flex-child-big{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+
+}
