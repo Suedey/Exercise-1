@@ -72,3 +72,36 @@ a {
     max-width: 800px;
 
 }
+.positioning-wrapper{
+    background-color: #cad7f1;
+    padding: 40px 20px;
+}
+
+.interior--positioning{
+    background-color: #85c4ff;
+    border-color: #0e3f9e;
+    min-height: 600px;
+    position: relative;
+}
+
+.circle{
+    background-color: #cad7f1;
+    border: 5px solid #0e3f9e;
+    border-radius: 50%; /* 50% always makes a circle -- can be used for rounded corners */
+    height: 80px;
+    position: absolute;
+    width: 80px;
+}
+
+.square{
+    background-color: #cad7f1;
+    border: 5px solid #0e3f9e;
+    height: 80px;
+    position: absolute;
+    width: 80px;
+}
+
+.interior--header{
+    background-color: plum;
+    border-color: purple;
+}
